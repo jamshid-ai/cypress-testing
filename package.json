@@ -1,0 +1,24 @@
+{
+  "name": "cypress-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress: open": "./node_modules/.bin/cypress open",
+    "cypress: run": "./node_modules/.bin/cypress run --spec ** / *. spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamshid-ai/cypress-testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamshid-ai/cypress-testing/issues"
+  },
+  "homepage": "https://github.com/jamshid-ai/cypress-testing#readme",
+  "devDependencies": {
+    "cypress": "^8.3.1"
+  }
+}
